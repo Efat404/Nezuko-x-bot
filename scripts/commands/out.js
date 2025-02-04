@@ -12,7 +12,7 @@ module.exports = {
 
 start: async function({ nayan, events, args }) {
         if (!args[0]) return nayan.removeUserFromGroup(nayan.getCurrentUserID(), events.threadID);
-  nayan.reply("gd bye", events.threadID)
+  nayan.reply(" আর আসবো না তোমাদের মাঝে🥺", events.threadID)
         if (!isNaN(args[0])) return nayan.removeUserFromGroup(nayan.getCurrentUserID(), args.join(" "));
 }
 }
